@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.genesis"
-       name="Genesis"
-       version="0.0.1"
-       provider-name="drtweak86">
-  <requires>
-    <import addon="xbmc.gui" version="5.16.0"/> <!-- Kodi Omega compatible -->
-    <import addon="xbmc.addon" version="1.0.0"/>
-    <import addon="xbmc.app" version="1.0.0"/>
-    <import addon="xbmc.json" version="11.0.0"/>
-    <import addon="script.skinshortcuts" version="1.0.0"/>
-    <import addon="resource.language.en_us" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.gui.skin" debugging="false">
-    <res width="1920" height="1080" aspect="16:9" />
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_US">Genesis Kodi Skin</summary>
-    <description lang="en_US">A new Kodi skin focused on performance and a Prime/Disney-style user experience, designed for Kodi Omega.</description>
-    <platform>all</platform>
-    <license>GPL-3.0-only</license>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
+<addon id="skin.genesis" name="Genesis" provider-name="Genesis Team" version="1.0.0">
+    <requires>
+        <import addon="xbmc.gui" version="5.13.0" />
+    </requires>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Genesis skin scaffold</summary>
+        <description lang="en">Minimal Genesis skin scaffold for iteration.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
 </addon>
