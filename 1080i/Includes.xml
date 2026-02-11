@@ -7,7 +7,6 @@
                 <height>nan</height>
                 <align>left</align>
                 <control type="label">
-                    <font>font_main</font>
                     <textcolor>text_primary</textcolor>
                     <label>Genesis home rail</label>
                     <left>40</left>
