@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fonts>
+
+    <fontset id="Default" unicode="false">
+        <include content="Font_Default_Exo2">
+            <param name="font_bold">special://skin/fonts/Exo2-Bold.ttf</param>
+            <param name="font_regular">special://skin/fonts/Exo2-Regular.ttf</param>
+            <param name="font_light">special://skin/fonts/Exo2-Light.ttf</param>
+            <param name="plot_linespacing_head">1.15</param>
+            <param name="plot_linespacing_midi">1.35</param>
+            <param name="plot_linespacing_main">1.12</param>
+            <param name="plot_linespacing_mini">1.25</param>
+            <param name="plot_linespacing_tiny">1.1</param>
+        </include>
+    </fontset>
+
+    <fontset id="Font_Default_Exo2" unicode="false">
+        <param name="font_bold">special://skin/fonts/Exo2-Bold.ttf</param>
+        <param name="font_regular">special://skin/fonts/Exo2-Regular.ttf</param>
+        <param name="font_light">special://skin/fonts/Exo2-Light.ttf</param>
+        <param name="plot_linespacing_head">1.15</param>
+        <param name="plot_linespacing_midi">1.35</param>
+        <param name="plot_linespacing_main">1.12</param>
+        <param name="plot_linespacing_mini">1.25</param>
+        <param name="plot_linespacing_tiny">1.1</param>
+    </fontset>
+
+</fonts>
