@@ -43,11 +43,21 @@
                         </control>
                     </focusedlayout>
                     <content>
-                        <item id="100" label="Search" />
-                        <item id="110" label="Discover" />
-                        <item id="120" label="Movies" />
-                        <item id="130" label="TV" />
-                        <item id="140" label="Anime" />
+                        <item id="100" label="Search">
+                            <onclick>ActivateWindow(1185)</onclick>
+                        </item>
+                        <item id="110" label="Discover">
+                            <onclick>ActivateWindow(1104)</onclick>
+                        </item>
+                        <item id="120" label="Movies">
+                            <onclick>ActivateWindow(1101)</onclick>
+                        </item>
+                        <item id="130" label="TV">
+                            <onclick>ActivateWindow(1102)</onclick>
+                        </item>
+                        <item id="140" label="Anime">
+                            <onclick>ActivateWindow(1108)</onclick>
+                        </item>
                     </content>
                 </control>
             </control>
