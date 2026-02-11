@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+    <!-- Common Colors as per WO-008 -->
+    <include name="ColorBlack">
+        <colordiffuse>FF000000</colordiffuse>
+    </include>
+    <include name="ColorDarkGrey">
+        <colordiffuse>FF0A0A0A</colordiffuse>
+    </include>
+    <include name="ColorRed">
+        <colordiffuse>FFFF0000</colordiffuse>
+    </include>
+    <include name="ColorWhite">
+        <colordiffuse>FFFFFFFF</colordiffuse>
+    </include>
+
+    <!-- Font Definitions as per WO-008 -->
+    <fontset id="Exo2">
+        <font>
+            <name>Exo2-Regular-20</name>
+            <filename>Exo2-Regular.ttf</filename>
+            <size>20</size>
+        </font>
+        <font>
+            <name>Exo2-Regular-24</name>
+            <filename>Exo2-Regular.ttf</filename>
+            <size>24</size>
+        </font>
+        <font>
+            <name>Exo2-Regular-30</name>
+            <filename>Exo2-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>Exo2-Bold-24</name>
+            <filename>Exo2-Bold.ttf</filename>
+            <size>24</size>
+        </font>
+        <font>
+            <name>Exo2-Light-20</name>
+            <filename>Exo2-Light.ttf</filename>
+            <size>20</size>
+        </font>
+    </fontset>
+
+    <!-- Other common includes can go here later -->
+
+</includes>
