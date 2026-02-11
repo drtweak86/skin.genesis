@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
+    <onload>SetProperty(Genesis.DisableHeavyAnimations,true)</onload>
     <controls>
         <include content="Home_Left_Rail" />
         <control type="group">
