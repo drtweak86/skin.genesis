@@ -2,6 +2,19 @@
 <fonts>
 
     <fontset id="Default" unicode="false">
+        <definition>
+            <font>
+                <name>font_main</name>
+                <filename>special://skin/fonts/Exo2-Regular.ttf</filename>
+                <size>40</size>
+            </font>
+            <font>
+                <name>font_hint_bold</name>
+                <filename>special://skin/fonts/Exo2-Bold.ttf</filename>
+                <size>32</size>
+                <style>bold</style>
+            </font>
+        </definition>
         <include content="Font_Default_Exo2">
             <param name="font_bold">special://skin/fonts/Exo2-Bold.ttf</param>
             <param name="font_regular">special://skin/fonts/Exo2-Regular.ttf</param>
@@ -23,22 +36,6 @@
         <param name="plot_linespacing_main">1.12</param>
         <param name="plot_linespacing_mini">1.25</param>
         <param name="plot_linespacing_tiny">1.1</param>
-    </fontset>
-
-    <fontset id="Genesis_Fonts">
-        <definition>
-            <font>
-                <name>font_main</name>
-                <filename>special://skin/fonts/Exo2-Regular.ttf</filename>
-                <size>40</size>
-            </font>
-            <font>
-                <name>font_hint_bold</name>
-                <filename>special://skin/fonts/Exo2-Bold.ttf</filename>
-                <size>32</size>
-                <style>bold</style>
-            </font>
-        </definition>
     </fontset>
 
 </fonts>

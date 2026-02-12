@@ -3,6 +3,13 @@
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
     </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Default">
+        <res width="1920" height="1080" folder="1080i" />
+    </extension>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Genesis skin scaffold</summary>
         <description lang="en">Minimal Genesis skin scaffold for iteration.</description>

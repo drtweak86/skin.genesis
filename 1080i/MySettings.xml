@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="10004">
+    <title>Genesis Settings</title>
+    <onback>CloseWindow(true)</onback>
+    <defaultcontrol>102</defaultcontrol>
+    <backgroundcolor>FF000000</backgroundcolor>
+    <controls>
+        <control type="image">
+            <id>100</id>
+            <width>full</width>
+            <height>full</height>
+            <texture>common/blank.png</texture>
+            <colordiffuse>FF000000</colordiffuse>
+        </control>
+        <control type="label">
+            <id>101</id>
+            <posx>960</posx>
+            <posy>140</posy>
+            <width>800</width>
+            <height>60</height>
+            <halign>center</halign>
+            <font>font_hint_bold</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Settings</label>
+        </control>
+        <control type="list">
+            <id>102</id>
+            <posx>560</posx>
+            <posy>260</posy>
+            <width>800</width>
+            <height>520</height>
+            <itemlayout>
+                <control type="label">
+                    <label>$INFO[ListItem.Label]</label>
+                    <font>font_main</font>
+                    <textcolor>FFFFFFFF</textcolor>
+                    <halign>left</halign>
+                </control>
+            </itemlayout>
+            <content>
+                <item id="200" label="Placeholder (WIP)" />
+            </content>
+        </control>
+        <control type="button">
+            <id>103</id>
+            <posx>960</posx>
+            <posy>860</posy>
+            <width>320</width>
+            <height>60</height>
+            <halign>center</halign>
+            <font>font_main</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Back</label>
+            <onclick>CloseWindow(true)</onclick>
+        </control>
+    </controls>
+</window>
