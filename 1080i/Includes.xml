@@ -1,16 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
+    <include file="Font.xml" />
     <include name="Home_Left_Rail">
         <definition>
             <control type="group" id="900">
-                <width>280</width>
-                <height>nan</height>
+                <width>300</width>
+                <height>full</height>
                 <align>left</align>
-                <control type="label">
-                    <textcolor>text_primary</textcolor>
-                    <label>Genesis home rail</label>
-                    <left>40</left>
-                    <top>40</top>
+                <control type="group">
+                    <height>60</height>
+                    <control type="label">
+                        <textcolor>text_secondary</textcolor>
+                        <label>Genesis</label>
+                        <left>30</left>
+                        <top>10</top>
+                        <font>font_hint_bold</font>
+                    </control>
+                </control>
+                <control type="list" id="901">
+                    <height>full</height>
+                    <top>80</top>
+                    <left>20</left>
+                    <right>-20</right>
+                    <itemlayout>
+                        <control type="label">
+                            <textcolor>text_primary</textcolor>
+                            <font>font_main</font>
+                            <label>$INFO[ListItem.Label]</label>
+                            <textoffsetx>0</textoffsetx>
+                        </control>
+                    </itemlayout>
+                    <focusedlayout>
+                        <control type="group">
+                            <control type="image">
+                                <texture colordiffuse="accent_red">common/blank.png</texture>
+                            </control>
+                            <control type="label">
+                                <textcolor>text_secondary</textcolor>
+                                <font>font_hint_bold</font>
+                                <label>$INFO[ListItem.Label]</label>
+                                <textoffsetx>10</textoffsetx>
+                            </control>
+                        </control>
+                    </focusedlayout>
+                    <content>
+                        <item id="100" label="Search">
+                            <onclick>ActivateWindow(1185)</onclick>
+                        </item>
+                        <item id="110" label="Discover">
+                            <onclick>ActivateWindow(1104)</onclick>
+                        </item>
+                        <item id="120" label="Movies">
+                            <onclick>ActivateWindow(1101)</onclick>
+                        </item>
+                        <item id="130" label="TV">
+                            <onclick>ActivateWindow(1102)</onclick>
+                        </item>
+                        <item id="140" label="Anime">
+                            <onclick>ActivateWindow(1108)</onclick>
+                        </item>
+                    </content>
                 </control>
             </control>
         </definition>

@@ -25,4 +25,20 @@
         <param name="plot_linespacing_tiny">1.1</param>
     </fontset>
 
+    <fontset id="Genesis_Fonts">
+        <definition>
+            <font>
+                <name>font_main</name>
+                <filename>special://skin/fonts/Exo2-Regular.ttf</filename>
+                <size>40</size>
+            </font>
+            <font>
+                <name>font_hint_bold</name>
+                <filename>special://skin/fonts/Exo2-Bold.ttf</filename>
+                <size>32</size>
+                <style>bold</style>
+            </font>
+        </definition>
+    </fontset>
+
 </fonts>

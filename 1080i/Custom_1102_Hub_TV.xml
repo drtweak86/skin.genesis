@@ -8,18 +8,18 @@
             <height>120</height>
             <control type="label">
                 <textcolor>text_primary</textcolor>
-                <label>Movies Hub</label>
+                <label>TV Hub</label>
                 <font>font_hint_bold</font>
             </control>
         </control>
-        <control type="group" id="1101_widgets">
+        <control type="group" id="1102_widgets">
             <top>180</top>
             <left>320</left>
             <right>-40</right>
             <bottom>-60</bottom>
             <control type="label">
                 <textcolor>text_secondary</textcolor>
-                <label>Movie widget placeholder</label>
+                <label>TV widget placeholder</label>
             </control>
         </control>
     </controls>
