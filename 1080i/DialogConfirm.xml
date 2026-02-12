@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <title>Confirm</title>
+    <backgroundcolor>CC000000</backgroundcolor>
+    <controls>
+        <control type="label">
+            <posx>960</posx>
+            <posy>500</posy>
+            <width>900</width>
+            <height>60</height>
+            <halign>center</halign>
+            <font>font_hint_bold</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Confirm action?</label>
+        </control>
+    </controls>
+</window>
