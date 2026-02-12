@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <title>Settings Categories</title>
+    <backgroundcolor>FF050505</backgroundcolor>
+    <controls>
+        <control type="list">
+            <posx>660</posx>
+            <posy>260</posy>
+            <width>600</width>
+            <height>640</height>
+            <itemlayout>
+                <control type="label">
+                    <label>$INFO[ListItem.Label]</label>
+                    <font>font_main</font>
+                    <textcolor>FFFFFFFF</textcolor>
+                </control>
+            </itemlayout>
+            <content>
+                <item id="1000" label="General" />
+                <item id="1001" label="System" />
+            </content>
+        </control>
+    </controls>
+</window>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <title>Pointer</title>
+    <backgroundcolor>00000000</backgroundcolor>
+    <controls>
+        <control type="image">
+            <posx>960</posx>
+            <posy>540</posy>
+            <width>64</width>
+            <height>64</height>
+            <texture>common/blank.png</texture>
+        </control>
+    </controls>
+</window>
