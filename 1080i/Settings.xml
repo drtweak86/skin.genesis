@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="10004">
+    <title>Genesis Settings</title>
+    <onback>CloseWindow(true)</onback>
+    <defaultcontrol>102</defaultcontrol>
+    <backgroundcolor>FF050505</backgroundcolor>
+    <controls>
+        <control type="image">
+            <id>100</id>
+            <width>full</width>
+            <height>full</height>
+            <colordiffuse>FF050505</colordiffuse>
+            <texture>common/blank.png</texture>
+        </control>
+        <control type="label">
+            <id>101</id>
+            <posx>960</posx>
+            <posy>110</posy>
+            <width>800</width>
+            <height>70</height>
+            <halign>center</halign>
+            <font>font_hint_bold</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Settings</label>
+        </control>
+        <control type="list">
+            <id>102</id>
+            <posx>620</posx>
+            <posy>220</posy>
+            <width>680</width>
+            <height>600</height>
+            <itemlayout>
+                <control type="label">
+                    <label>$INFO[ListItem.Label]</label>
+                    <font>font_main</font>
+                    <textcolor>FFFFFFFF</textcolor>
+                    <halign>left</halign>
+                </control>
+            </itemlayout>
+            <focusedlayout>
+                <control type="label">
+                    <label>$INFO[ListItem.Label]</label>
+                    <font>font_hint_bold</font>
+                    <textcolor>accent_red</textcolor>
+                    <halign>left</halign>
+                </control>
+            </focusedlayout>
+            <content>
+                <item id="200" label="Profile" />
+                <item id="201" label="System" />
+                <item id="202" label="Services" />
+            </content>
+        </control>
+        <control type="button">
+            <id>103</id>
+            <posx>960</posx>
+            <posy>860</posy>
+            <width>320</width>
+            <height>60</height>
+            <halign>center</halign>
+            <font>font_main</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Back</label>
+            <onclick>CloseWindow(true)</onclick>
+        </control>
+    </controls>
+</window>

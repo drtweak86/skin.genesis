@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-    <include file="Font.xml" />
     <include name="Home_Left_Rail">
         <definition>
             <control type="group" id="900">

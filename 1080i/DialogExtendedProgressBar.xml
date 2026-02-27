@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <title>Progress</title>
+    <backgroundcolor>77000000</backgroundcolor>
+    <controls>
+        <control type="label">
+            <posx>960</posx>
+            <posy>500</posy>
+            <width>900</width>
+            <height>60</height>
+            <halign>center</halign>
+            <font>font_main</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Processing...</label>
+        </control>
+    </controls>
+</window>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="1185">
+    <title>Search (WIP)</title>
+    <onback>ActivateWindow(Home)</onback>
+    <defaultcontrol>1000</defaultcontrol>
+    <backgroundcolor>FF000000</backgroundcolor>
+    <controls>
+        <control type="label">
+            <id>1000</id>
+            <posx>960</posx>
+            <posy>520</posy>
+            <width>600</width>
+            <height>60</height>
+            <halign>center</halign>
+            <valign>center</valign>
+            <font>font_hint_bold</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Search (WIP)</label>
+        </control>
+        <control type="button">
+            <id>1001</id>
+            <posx>960</posx>
+            <posy>620</posy>
+            <width>320</width>
+            <height>60</height>
+            <halign>center</halign>
+            <font>font_main</font>
+            <label>Back to Home</label>
+            <onclick>ActivateWindow(Home)</onclick>
+        </control>
+    </controls>
+</window>

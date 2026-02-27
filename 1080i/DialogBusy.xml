@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <title>Busy</title>
+    <backgroundcolor>AA000000</backgroundcolor>
+    <controls>
+        <control type="label">
+            <posx>960</posx>
+            <posy>540</posy>
+            <width>800</width>
+            <height>60</height>
+            <halign>center</halign>
+            <font>font_hint_bold</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Please wait...</label>
+        </control>
+    </controls>
+</window>
